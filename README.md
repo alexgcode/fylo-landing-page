@@ -11,7 +11,8 @@
 
 # Process
 After decide separate css into multiple files,
-I will begin by adding the font to use, by @font-face
+I will begin by adding the font to use.
+I wll continue with creationg of the buttons
 
 
 # Resources
