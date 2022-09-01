@@ -1,0 +1,44 @@
+.signup {
+    background-color: var(--dark-blue-intro-email);
+    max-width: 52rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 2rem 2rem 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0.3rem 0.3rem 0.5rem black;
+}
+
+.signup__title {
+    color: var(--white);
+    font-size: 2em;
+    font-family: var(--raleway);
+    font-weight: 700;
+    margin: 0.5em 0;
+}
+
+.signup__text {
+    color: var(--white);
+    font-family: var(--openSans);
+    font-size: 0.9em;
+    text-align: center;
+    margin: 0.5em 5em 2em 5em;
+}
+
+.signup__input {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.input-email {
+    border-radius: 2rem;
+    font-size: 0.8rem;
+    min-width: 30rem;
+    min-height: 3rem;
+}
+
+.input-email::placeholder {
+    padding: 1em 3em;
+    color:rgba(169, 169, 169, 0.678);
+}
