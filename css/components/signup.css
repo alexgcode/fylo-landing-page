@@ -34,11 +34,31 @@
 .input-email {
     border-radius: 2rem;
     font-size: 0.8rem;
-    min-width: 30rem;
+    width: 30rem;
     min-height: 3rem;
+    padding: 0.2rem 3rem;
 }
 
 .input-email::placeholder {
-    padding: 1em 3em;
     color:rgba(169, 169, 169, 0.678);
+}
+
+@media screen and (max-width:375px) {
+    
+    .signup__input {
+        flex-direction: column;
+    }
+
+    .signup__title {
+        font-size: 1.1em;
+    }
+
+    .signup__text {
+        margin: 0.5em 0 2em 0;
+        line-height: 1.5em;
+    }
+
+    .input-email {
+        max-width: 15rem;
+    }
 }

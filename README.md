@@ -12,7 +12,17 @@
 # Process
 After decide separate css into multiple files,
 I will begin by adding the font to use.
-I wll continue with creationg of the buttons
+I wll continue with creationg of the buttons,
+then cards,
+then testimonials and
+finally signup
+
+Until now the development focus on components first
+has been very satisfying. I can see my progress much better
+than develop layout first
+
+# Conclusions
+
 
 
 # Resources
