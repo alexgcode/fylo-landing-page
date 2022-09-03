@@ -1,6 +1,13 @@
+.footer {
+    background-color: var(--dark-blue-footer-bg);
+}
 
+.footer-container {
+    margin: auto;
+    max-width: var(--max-width-desktop);
+}
 
-.container {
+.sub-container {
     display: flex;
     color: var(--white);
     font-family: var(--openSans);
@@ -81,6 +88,7 @@
 { 
     font-size: 11px; 
     text-align: center; 
+    color: white;
 }
 
 .attribution a { 
@@ -89,6 +97,21 @@
 
 
 @media screen and (max-width:375px) {
+
+    .footer {
+        margin: auto 1rem;
+    }
+
+    .location {
+        padding: 0;
+        font-size: 1rem;
+        gap: 1.9rem;
+    }
+
+    .location__text {
+        line-height: 1.5rem;
+    }
+
     .column, .social {
         width: 100%;
     }

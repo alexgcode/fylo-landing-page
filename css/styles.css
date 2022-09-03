@@ -1,3 +1,4 @@
+@import url('vendors/normalize.css');
 
 @import url('utils/variables.css');
 
@@ -14,3 +15,5 @@
 @import url('components/signup.css');
 
 @import url('layout/footer.css');
+@import url('layout/navbar.css');
+@import url('layout/main.css');

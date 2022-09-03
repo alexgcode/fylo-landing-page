@@ -2,14 +2,26 @@
     background: linear-gradient(90deg, hsl(176, 68%, 64%) 0%, hsl(198, 60%, 50%) 100%);
     border: none;
     border-radius: 2rem;
-    min-width: 15rem;
-    min-height: 3rem;
+    min-width: 18rem;
+    min-height: 3.7rem;
     color: white;
-    font-size: 0.8rem;
+    font-size: 1rem;
     font-weight: 700;
+    font-family: var(--openSans);
 }
 
 .button:hover {
     background: rgb(112, 222, 255);
     cursor: pointer;
+}
+
+@media screen and (max-width:375px) {
+
+    .button {
+        min-width: 15rem;
+        min-height: 3rem;
+        font-size: 0.85rem;
+    }
+    
+    
 }

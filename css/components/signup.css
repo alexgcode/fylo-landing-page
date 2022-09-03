@@ -35,7 +35,7 @@
     border-radius: 2rem;
     font-size: 0.8rem;
     width: 30rem;
-    min-height: 3rem;
+    min-height: 2.9rem;
     padding: 0.2rem 3rem;
 }
 
@@ -45,6 +45,10 @@
 
 @media screen and (max-width:375px) {
     
+    .signup {
+        padding: 2rem 1rem;
+    }
+
     .signup__input {
         flex-direction: column;
     }
@@ -59,6 +63,9 @@
     }
 
     .input-email {
-        max-width: 15rem;
+        max-width: 13.2rem;
+        padding: 0.2rem 2rem 0.1rem 2rem;
+        font-size: 0.58rem;
+        letter-spacing: 0.0.7rem;
     }
 }

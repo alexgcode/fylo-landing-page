@@ -20,4 +20,10 @@
     /* font family */
     --raleway: 'Raleway';
     --openSans: 'Open Sans';
+
+    /* widths */
+    --max-width-desktop: 80rem;
+
+    /* margins */
+    --mobile-375-margins-x: 0.75rem; 
 }

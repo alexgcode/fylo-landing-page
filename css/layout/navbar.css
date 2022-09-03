@@ -1,0 +1,42 @@
+.header {
+    margin: 4.55rem auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: var(--max-width-desktop);
+}
+
+.nav {
+    display: flex;
+    width: 17rem;
+    justify-content: space-between;
+}
+
+.nav__item {
+    color: var(--white);
+    text-decoration: none;
+    font-family: var(--raleway);
+    font-weight: 400;
+    font-size: 0.9rem;
+    letter-spacing: 0.07rem;
+}
+
+@media screen and (max-width: 375px) {
+
+    .header {
+        margin: 1.5rem 1.25rem;
+    }
+
+    .logo {
+        max-width: 5rem;
+    }
+    
+    .nav {
+        width: 11rem;
+    }
+
+    .nav__item {
+        font-size: 0.65rem;
+    }
+
+}

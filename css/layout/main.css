@@ -1,0 +1,16 @@
+.main {
+    background-color: var(--dark-blue-main-bg);
+}
+
+.main-container {
+    margin: auto;
+    max-width: var(--max-width-desktop);
+}
+
+@media screen and (max-width:375px) {
+
+    .main {
+        margin: auto 1rem;
+    }
+    
+}
