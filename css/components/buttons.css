@@ -15,6 +15,11 @@
     cursor: pointer;
 }
 
+.button--signup {
+    min-width: 15rem;
+    min-height: 2.7rem;
+}
+
 @media screen and (max-width:375px) {
 
     .button {

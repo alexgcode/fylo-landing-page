@@ -23,7 +23,7 @@
     font-family: var(--openSans);
     font-size: 0.9em;
     text-align: center;
-    margin: 0.5em 5em 2em 5em;
+    margin: 0.5em 5em 2.5em 5em;
 }
 
 .signup__input {
@@ -34,9 +34,9 @@
 .input-email {
     border-radius: 2rem;
     font-size: 0.8rem;
-    width: 30rem;
-    min-height: 2.9rem;
-    padding: 0.2rem 3rem;
+    width: 23rem;
+    min-height: 2.7rem;
+    padding: 0.1rem 3rem;
 }
 
 .input-email::placeholder {
@@ -58,7 +58,7 @@
     }
 
     .signup__text {
-        margin: 0.5em 0 2em 0;
+        margin: 0.5em 0.5em 2em 0.5em;
         line-height: 1.5em;
     }
 

@@ -21,6 +21,9 @@ Until now the development focus on components first
 has been very satisfying. I can see my progress much better
 than develop layout first
 
+Ohter thing I learn is that always have a footer and a footer container
+for the color change
+
 # Conclusions
 
 

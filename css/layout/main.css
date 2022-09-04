@@ -25,13 +25,37 @@
 
 .productive-section {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 3rem;
+    gap: 2rem;
 }
 
+
 .testimonials {
-    
+    margin: 8rem auto;
+    padding-top: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    max-width: 72rem;
+    background: url('../../images/bg-quotes.png');
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    flex-wrap: wrap;
+}
+
+.signup-section {
+    display: flex;
+    justify-content: center;
+    margin: 14rem auto 7rem auto;
+}
+
+.bacground-2 {
+    background: linear-gradient(0deg, var(--dark-blue-footer-bg) 50%, var(--dark-blue-main-bg) 50%);
+    height: 5rem;
+    z-index: -1;
 }
 
 @media screen and (max-width:375px) {
@@ -42,6 +66,25 @@
 
     .row {
         gap: 4.5rem;
+    }
+
+    .productive-section__image {
+        max-width: 90%;
+        text-align: center;
+    }
+
+    .testimonials {
+        background-size: 1.5rem;
+        padding-left: 0;
+        padding-right: 0;
+        padding-top: 1rem;
+        margin: 10rem 1.75rem 4rem 1.75rem;
+        gap: 2rem;
+    }
+
+    .signup-section {
+        margin-top: 10rem;
+        margin-bottom: 5rem;
     }
     
 }

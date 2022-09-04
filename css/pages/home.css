@@ -109,4 +109,22 @@
         font-size: 0.85rem;
         line-height: 1.3rem;
     }
+
+    .productive {
+        max-width: 20rem;
+    }
+
+    .productive__title {
+        font-size: 1.1rem;
+        text-align: center;
+    }
+
+    .productive__text {
+        font-size: 0.9rem;
+        line-height: 1.25rem;
+    }
+
+    .info-link {
+        font-size: 0.7rem;
+    }
 }
