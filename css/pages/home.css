@@ -35,8 +35,7 @@
 }
 
 .productive {
-    max-width: 31.5rem;
-    color: var(--white);
+    max-width: 35rem;
 }
 
 .productive__title {
@@ -44,20 +43,25 @@
     font-family: var(--raleway);
     font-weight: 400;
     margin-right: 1em;
+    color: white;
+    max-width: 30rem;
 }
 
 .productive__text {
     font-family: var(--openSans);
-    font-size: 0.7em;
+    font-size: 1rem;
+    color: var(--white);
+    line-height: 1.6rem;
 }
 
 .info-link {
     font-family: var(--openSans);
-    font-size: 0.7em;
+    font-size: 0.95rem;
     color: var(--cyan-call-to-action);
     text-decoration: none;
     padding-bottom: 0.4em;
     border-bottom: 0.15em solid var(--cyan-call-to-action);
+    letter-spacing: 0.06rem;
 }
 
 

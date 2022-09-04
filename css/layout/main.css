@@ -7,10 +7,41 @@
     max-width: var(--max-width-desktop);
 }
 
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 9.5rem;
+    justify-content: center;
+}
+
+.benefits {
+    margin-top: 10.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 65rem;
+    gap: 4.5rem;
+    justify-content: center;
+}
+
+.productive-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.testimonials {
+    
+}
+
 @media screen and (max-width:375px) {
 
     .main {
         margin: auto 1rem;
+    }
+
+    .row {
+        gap: 4.5rem;
     }
     
 }

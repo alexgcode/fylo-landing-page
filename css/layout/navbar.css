@@ -21,6 +21,12 @@
     letter-spacing: 0.07rem;
 }
 
+.nav__item:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    color: white;
+}
+
 @media screen and (max-width: 375px) {
 
     .header {
