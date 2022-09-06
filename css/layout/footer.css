@@ -10,6 +10,7 @@
 
 .sub-container {
     display: flex;
+    flex-direction: row;
     color: var(--white);
     font-family: var(--openSans);
     margin: 2rem auto;
@@ -18,8 +19,8 @@
 
 /*-----location------*/
 .location {
-    flex-grow: 2;
-    max-width: 22rem;
+    max-width: 20rem;
+    flex-grow: 1;
     padding: 0 1rem;
     display: flex;
     gap: 1rem;
@@ -41,7 +42,6 @@
 
 /*-----contacts------*/
 .contacts {
-    max-width: 22rem;
     flex-grow: 1;
     display: flex;
     flex-direction: column;
@@ -127,10 +127,10 @@
 }
 
 
-@media screen and (max-width:375px) {
+@media screen and (max-width:425px) {
 
     .footer {
-        margin: 0;
+        margin: 0 0.75rem;
         padding: 0 1.7rem;
     }
 
@@ -176,4 +176,6 @@
         font-size: 0.8rem;
         padding: 0.4rem;
     }
+
+    
 }
