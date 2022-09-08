@@ -1,5 +1,5 @@
 .footer {
-    padding-top: 7rem;
+    padding-top: 11rem;
     background-color: var(--dark-blue-footer-bg);
     padding-inline: 1.7rem;
 }
@@ -129,12 +129,19 @@
     color: hsl(228, 45%, 44%); 
 }
 
+@media screen and (max-width: 1024px) {
+    
+    .footer {
+        padding-top: 15rem;
+    }
+}
 
 @media screen and (max-width:425px) {
 
     .footer {
         /*margin: 0 0.75rem;
         padding-in: 0 1.7rem;*/
+        padding-top: 20rem;
     }
 
     .location {
@@ -185,9 +192,6 @@
 
 @media screen and (min-width: 426px) {
     
-    .column, .social {
-        /*align-items: center;*/
-    }
     .sub-container {
         gap: 2rem;
     }

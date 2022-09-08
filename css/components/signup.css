@@ -1,6 +1,7 @@
 .signup {
     background-color: var(--dark-blue-intro-email);
-    max-width: 52rem;
+    /*max-width: 52rem;*/
+    width: min(100% - 5rem, 52rem);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -8,6 +9,7 @@
     padding: 2rem 2rem 2rem 2rem;
     border-radius: 0.5rem;
     box-shadow: 0.3rem 0.3rem 0.5rem black;
+    position: absolute;
 }
 
 .signup__title {

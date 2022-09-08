@@ -4,9 +4,8 @@
 - font-face 
 
 # Objectives for this project
-- use sass for anidated rules
-- use grid for the layout
-- use 7-1 architecture for css files
+- use flexbox and media queries for the layout and responsive design
+- use 7-1 architecture for css files (without sass)
 
 
 # Process
@@ -21,7 +20,10 @@ has been very satisfying. I can see my progress much better
 than develop layout first
 
 Ohter thing I learn is that always have a footer and a footer container
-for the color change
+for the color change.
+
+I also learn a little trick for always mantain the same margin, using: 
+width: min(100% - margin, max-size); 
 
 # Conclusions
 
