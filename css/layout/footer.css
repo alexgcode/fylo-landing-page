@@ -114,6 +114,7 @@
 .fa:hover {
     color: var(--cyan-call-to-action);
     border-color: var(--cyan-call-to-action);
+    cursor: pointer;
 }
 
 
