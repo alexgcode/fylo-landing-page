@@ -82,10 +82,12 @@
 .info-link__image {
     margin-left: 0.3em;
     vertical-align: sub;
+    color: var(--cyan-call-to-action);
 }
 
 .info-link:hover .info-link__image {
-    filter: brightness(0) saturate(100%) invert(100%) sepia(2%) saturate(809%) hue-rotate(228deg) brightness(118%) contrast(100%);
+    /*filter: brightness(0) saturate(100%) invert(100%) sepia(2%) saturate(809%) hue-rotate(228deg) brightness(118%) contrast(100%);*/
+    color: white;
 }
 
 .benefits {
