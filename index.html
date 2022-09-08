@@ -165,10 +165,21 @@
             questions, our support team would be happy to help you.
           </p>
           
-          <div class="signup__input">
-            <input class="input-email" type="email" placeholder="email@email.com">
-            <button class="button button--signup">Get Started For Free</button> 
-          </div>
+          <!--
+            <div class="signup__input">
+              <input class="input-email" type="email" placeholder="email@email.com" pattern=".+@globex\.com" required>
+              <button class="button button--signup">Get Started For Free</button> 
+            </div>
+          -->
+          <form class="signup__input" action="#">
+            <div class="column">
+              <input class="input-email" type="email" placeholder="email@email.com" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]+$" required>
+              <span class="signup__requeriments">Please enter a valid email address</span>
+            </div>
+            <input type="submit" class="button button--signup" value="Get Started For Free">
+            
+          </form>
+          
           
         </div>
         

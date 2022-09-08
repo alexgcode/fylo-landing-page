@@ -1,11 +1,11 @@
 # I use in this project
 - normalize
-- separated css files
-- font-face 
+- Desktop-first workflow
+- BEM
 
 # Objectives for this project
 - use flexbox and media queries for the layout and responsive design
-- use 7-1 architecture for css files (without sass)
+- use 7-1 architecture for vanilla css files (not sass)
 
 
 # Process
@@ -25,9 +25,17 @@ for the color change.
 I also learn a little trick for always mantain the same margin, using: 
 width: min(100% - margin, max-size); 
 
-# Conclusions
+Also to change the color of an specific section of a svg image puting 
+the fill property value to "currentcolor"
+
+Finally learn how to validate email input inside a form with just html and css
+using the property pattern of the input and the pseudoclass placeholder-shown of css
 
 
+# Conclusion
+- I liked use dev component first focus, I will used from now on.
+- Spliting css into multiple files liked too, make it easier and faster to make changes
+and rehuse components for other projects.
 
 # Resources
 https://sass-guidelin.es/es/#arquitectura
