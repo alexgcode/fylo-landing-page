@@ -1,6 +1,7 @@
 .footer {
     padding-top: 7rem;
     background-color: var(--dark-blue-footer-bg);
+    padding-inline: 1.7rem;
 }
 
 .footer-container {
@@ -69,7 +70,7 @@
 
 
 /*-----column------*/
-.column, .social {
+.column {
     flex-grow: 1;
 }
 
@@ -92,6 +93,7 @@
 /*-------------- social media icons----------*/
 
 .social {
+    justify-self: flex-end;
     display: flex;
     gap: 0.5rem;
     align-items: flex-start;
@@ -131,8 +133,8 @@
 @media screen and (max-width:425px) {
 
     .footer {
-        /*margin: 0 0.75rem;*/
-        padding: 0 1.7rem;
+        /*margin: 0 0.75rem;
+        padding-in: 0 1.7rem;*/
     }
 
     .location {
@@ -179,4 +181,14 @@
     }
 
     
+}
+
+@media screen and (min-width: 426px) {
+    
+    .column, .social {
+        /*align-items: center;*/
+    }
+    .sub-container {
+        gap: 2rem;
+    }
 }
