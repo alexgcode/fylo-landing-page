@@ -1,10 +1,12 @@
 .main {
     background-color: var(--dark-blue-main-bg);
+    
 }
 
 .main-container {
     margin: auto;
-    max-width: var(--max-width-desktop);
+    /*max-width: var(--max-width-desktop);*/
+    width: min(100% - 2rem, var(--max-width-desktop));
 }
 
 .row {
@@ -61,7 +63,7 @@
 @media screen and (max-width:425px) {
 
     .main {
-        margin: auto 1rem;
+        /*margin: auto 1rem;*/
     }
 
     .row {

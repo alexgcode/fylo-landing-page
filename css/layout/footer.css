@@ -5,7 +5,8 @@
 
 .footer-container {
     margin: auto auto 5rem auto;
-    max-width: calc(var(--max-width-desktop) - 3rem);
+    /*max-width: calc(var(--max-width-desktop) - 3rem);*/
+    width: min(100% - 0.75rem, var(--max-width-desktop));
 }
 
 .sub-container {
@@ -130,7 +131,7 @@
 @media screen and (max-width:425px) {
 
     .footer {
-        margin: 0 0.75rem;
+        /*margin: 0 0.75rem;*/
         padding: 0 1.7rem;
     }
 
@@ -150,7 +151,7 @@
 
     .logo-footer {
         max-width: 11rem;
-        margin-left: 0.9rem;
+        margin-left: 0.5rem;
     }
 
     .sub-container {

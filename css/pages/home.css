@@ -42,6 +42,10 @@
     max-width: 35rem;
 }
 
+.productive-section__image {
+    max-width: 100%;
+}
+
 .productive__title {
     font-size: 2.5em;
     font-family: var(--raleway);
